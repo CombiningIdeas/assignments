@@ -6,7 +6,7 @@
 //using namespace std;
 //using elementType = int;
 //
-//const elementType LENGTH = 2; // размер игрового поля
+//const elementType LENGTH = 3; // размер игрового поля
 //
 //// создание двумерного вектора по принципу:
 //// vector <vector<int>> a(n, vector <int> (m)); -
