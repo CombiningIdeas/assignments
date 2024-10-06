@@ -1,0 +1,48 @@
+{
+  "version": "2",
+  "configurations": [
+    {
+      "name": "Debug",
+      "inheritEnvironments": [
+        "msvc_x64_x86",
+        "windows_64",
+        "windows"
+      ],
+      "generator": {
+        "platform": "x64",
+        "projectType": "exe"
+      },
+      "intelliSenseMode": "windows-msvc-x64",
+      "buildSystem": "msbuild",
+      "includePath": [
+        "${workspaceFolder}"
+      ],
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "compilerPath": "${default}"
+    },
+    {
+      "name": "Release",
+      "inheritEnvironments": [
+        "msvc_x64_x86",
+        "windows_64",
+        "windows"
+      ],
+      "generator": {
+        "platform": "x64",
+        "projectType": "exe"
+      },
+      "intelliSenseMode": "windows-msvc-x64",
+      "buildSystem": "msbuild",
+      "includePath": [
+        "${workspaceFolder}"
+      ],
+      "defines": [
+        "NDEBUG"
+      ],
+      "compilerPath": "${default}"
+    }
+  ]
+}
